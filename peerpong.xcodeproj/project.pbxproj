@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F3FF04D1A37CCA300EF6F59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FF04C1A37CCA300EF6F59 /* main.m */; };
+		5F3FF0501A37CCA300EF6F59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FF04F1A37CCA300EF6F59 /* AppDelegate.m */; };
+		5F3FF0531A37CCA300EF6F59 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FF0521A37CCA300EF6F59 /* GameScene.m */; };
+		5F3FF0551A37CCA300EF6F59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FF0541A37CCA300EF6F59 /* GameScene.sks */; };
+		5F3FF0581A37CCA300EF6F59 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FF0571A37CCA300EF6F59 /* GameViewController.m */; };
+		5F3FF05B1A37CCA300EF6F59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FF0591A37CCA300EF6F59 /* Main.storyboard */; };
+		5F3FF05D1A37CCA300EF6F59 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FF05C1A37CCA300EF6F59 /* Images.xcassets */; };
+		5F3FF0601A37CCA300EF6F59 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3FF05E1A37CCA300EF6F59 /* LaunchScreen.xib */; };
+		5F3FF06C1A37CCA300EF6F59 /* peerpongTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3FF06B1A37CCA300EF6F59 /* peerpongTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3FF0661A37CCA300EF6F59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3FF03F1A37CCA300EF6F59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3FF0461A37CCA300EF6F59;
+			remoteInfo = peerpong;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F3FF0471A37CCA300EF6F59 /* peerpong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peerpong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3FF04B1A37CCA300EF6F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3FF04C1A37CCA300EF6F59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3FF04E1A37CCA300EF6F59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F3FF04F1A37CCA300EF6F59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F3FF0511A37CCA300EF6F59 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		5F3FF0521A37CCA300EF6F59 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		5F3FF0541A37CCA300EF6F59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5F3FF0561A37CCA300EF6F59 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		5F3FF0571A37CCA300EF6F59 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		5F3FF05A1A37CCA300EF6F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F3FF05C1A37CCA300EF6F59 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F3FF05F1A37CCA300EF6F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F3FF0651A37CCA300EF6F59 /* peerpongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peerpongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3FF06A1A37CCA300EF6F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3FF06B1A37CCA300EF6F59 /* peerpongTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peerpongTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3FF0441A37CCA300EF6F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3FF0621A37CCA300EF6F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3FF03E1A37CCA300EF6F59 = {
+			isa = PBXGroup;
+			children = (
+				5F3FF0491A37CCA300EF6F59 /* peerpong */,
+				5F3FF0681A37CCA300EF6F59 /* peerpongTests */,
+				5F3FF0481A37CCA300EF6F59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3FF0481A37CCA300EF6F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FF0471A37CCA300EF6F59 /* peerpong.app */,
+				5F3FF0651A37CCA300EF6F59 /* peerpongTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3FF0491A37CCA300EF6F59 /* peerpong */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FF04E1A37CCA300EF6F59 /* AppDelegate.h */,
+				5F3FF04F1A37CCA300EF6F59 /* AppDelegate.m */,
+				5F3FF0511A37CCA300EF6F59 /* GameScene.h */,
+				5F3FF0521A37CCA300EF6F59 /* GameScene.m */,
+				5F3FF0541A37CCA300EF6F59 /* GameScene.sks */,
+				5F3FF0561A37CCA300EF6F59 /* GameViewController.h */,
+				5F3FF0571A37CCA300EF6F59 /* GameViewController.m */,
+				5F3FF0591A37CCA300EF6F59 /* Main.storyboard */,
+				5F3FF05C1A37CCA300EF6F59 /* Images.xcassets */,
+				5F3FF05E1A37CCA300EF6F59 /* LaunchScreen.xib */,
+				5F3FF04A1A37CCA300EF6F59 /* Supporting Files */,
+			);
+			path = peerpong;
+			sourceTree = "<group>";
+		};
+		5F3FF04A1A37CCA300EF6F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FF04B1A37CCA300EF6F59 /* Info.plist */,
+				5F3FF04C1A37CCA300EF6F59 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F3FF0681A37CCA300EF6F59 /* peerpongTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FF06B1A37CCA300EF6F59 /* peerpongTests.m */,
+				5F3FF0691A37CCA300EF6F59 /* Supporting Files */,
+			);
+			path = peerpongTests;
+			sourceTree = "<group>";
+		};
+		5F3FF0691A37CCA300EF6F59 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3FF06A1A37CCA300EF6F59 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3FF0461A37CCA300EF6F59 /* peerpong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3FF06F1A37CCA300EF6F59 /* Build configuration list for PBXNativeTarget "peerpong" */;
+			buildPhases = (
+				5F3FF0431A37CCA300EF6F59 /* Sources */,
+				5F3FF0441A37CCA300EF6F59 /* Frameworks */,
+				5F3FF0451A37CCA300EF6F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = peerpong;
+			productName = peerpong;
+			productReference = 5F3FF0471A37CCA300EF6F59 /* peerpong.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3FF0641A37CCA300EF6F59 /* peerpongTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3FF0721A37CCA300EF6F59 /* Build configuration list for PBXNativeTarget "peerpongTests" */;
+			buildPhases = (
+				5F3FF0611A37CCA300EF6F59 /* Sources */,
+				5F3FF0621A37CCA300EF6F59 /* Frameworks */,
+				5F3FF0631A37CCA300EF6F59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3FF0671A37CCA300EF6F59 /* PBXTargetDependency */,
+			);
+			name = peerpongTests;
+			productName = peerpongTests;
+			productReference = 5F3FF0651A37CCA300EF6F59 /* peerpongTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3FF03F1A37CCA300EF6F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Schemetrical;
+				TargetAttributes = {
+					5F3FF0461A37CCA300EF6F59 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5F3FF0641A37CCA300EF6F59 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5F3FF0461A37CCA300EF6F59;
+					};
+				};
+			};
+			buildConfigurationList = 5F3FF0421A37CCA300EF6F59 /* Build configuration list for PBXProject "peerpong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3FF03E1A37CCA300EF6F59;
+			productRefGroup = 5F3FF0481A37CCA300EF6F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3FF0461A37CCA300EF6F59 /* peerpong */,
+				5F3FF0641A37CCA300EF6F59 /* peerpongTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3FF0451A37CCA300EF6F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3FF0601A37CCA300EF6F59 /* LaunchScreen.xib in Resources */,
+				5F3FF05D1A37CCA300EF6F59 /* Images.xcassets in Resources */,
+				5F3FF0551A37CCA300EF6F59 /* GameScene.sks in Resources */,
+				5F3FF05B1A37CCA300EF6F59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3FF0631A37CCA300EF6F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3FF0431A37CCA300EF6F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3FF0581A37CCA300EF6F59 /* GameViewController.m in Sources */,
+				5F3FF0501A37CCA300EF6F59 /* AppDelegate.m in Sources */,
+				5F3FF0531A37CCA300EF6F59 /* GameScene.m in Sources */,
+				5F3FF04D1A37CCA300EF6F59 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3FF0611A37CCA300EF6F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3FF06C1A37CCA300EF6F59 /* peerpongTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3FF0671A37CCA300EF6F59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3FF0461A37CCA300EF6F59 /* peerpong */;
+			targetProxy = 5F3FF0661A37CCA300EF6F59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F3FF0591A37CCA300EF6F59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3FF05A1A37CCA300EF6F59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F3FF05E1A37CCA300EF6F59 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3FF05F1A37CCA300EF6F59 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F3FF06D1A37CCA300EF6F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F3FF06E1A37CCA300EF6F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F3FF0701A37CCA300EF6F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = peerpong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F3FF0711A37CCA300EF6F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = peerpong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F3FF0731A37CCA300EF6F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = peerpongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peerpong.app/peerpong";
+			};
+			name = Debug;
+		};
+		5F3FF0741A37CCA300EF6F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = peerpongTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peerpong.app/peerpong";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3FF0421A37CCA300EF6F59 /* Build configuration list for PBXProject "peerpong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3FF06D1A37CCA300EF6F59 /* Debug */,
+				5F3FF06E1A37CCA300EF6F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3FF06F1A37CCA300EF6F59 /* Build configuration list for PBXNativeTarget "peerpong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3FF0701A37CCA300EF6F59 /* Debug */,
+				5F3FF0711A37CCA300EF6F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F3FF0721A37CCA300EF6F59 /* Build configuration list for PBXNativeTarget "peerpongTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3FF0731A37CCA300EF6F59 /* Debug */,
+				5F3FF0741A37CCA300EF6F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3FF03F1A37CCA300EF6F59 /* Project object */;
+}
