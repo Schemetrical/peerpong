@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+#import <MultipeerConnectivity/MultipeerConnectivity.h>
+#import "PongScene.h"
 
-@interface GameViewController : UIViewController
+@interface GameViewController : UIViewController <MCBrowserViewControllerDelegate, MCSessionDelegate, PongSceneDelegate>
 
 @end
